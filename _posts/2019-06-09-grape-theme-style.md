@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Sample Post with Grape-Theme style
-subtitle : How markdown is displayed as html
+subtitle: How markdown is displayed as html
 tags: [Sample Post, Welcome to the Grape Theme!]
 author: Nayeong Kim
-comments : False
+comments: False
 ---
 
 This is an example of a post which includes code, quotes and backtick.
@@ -15,9 +15,9 @@ A sample of the formatting follows.
 
 <br>
 
-code, quotes and backtick를 포함하고 있는 게시물의 예입니다. 
+code, quotes and backtick를 포함하고 있는 게시물의 예입니다.
 
- `_utility.html`에서 스타일을 변경할 수 있으며, 서식 샘플은 아래와 같습니다.
+`_utility.html`에서 스타일을 변경할 수 있으며, 서식 샘플은 아래와 같습니다.
 
 <br>
 
@@ -25,9 +25,11 @@ code, quotes and backtick를 포함하고 있는 게시물의 예입니다.
 You can add highlighting for code in `highlight.scss`.
 
 {% highlight python %}
+
 # test function
+
 def test :
-    print('hello world!')
+print('hello world!')
 {% endhighlight %}
 
 <br>
@@ -46,3 +48,7 @@ def test :
 {% endhighlight %}
 `Grape-Theme`
 
+<h2>4. Math</h2>
+<p>Inline math: $x^2 + y^2 = z^2$.</p>
+<p>Display math:</p>
+$/x^2 + y^2 = z^2/$
